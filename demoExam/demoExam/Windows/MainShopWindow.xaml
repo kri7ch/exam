@@ -21,7 +21,6 @@
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center" Margin="10,0">
                     <Image Source="pack://application:,,,/Resource/Icons/Icon.png" Height="40" Width="40" Stretch="Uniform"/>
-                    <TextBlock Text="ShoeStore" FontSize="20" FontWeight="Bold" VerticalAlignment="Center" Margin="10,0,0,0"/>
                 </StackPanel>
                 <TextBlock Grid.Column="1" Text="Магазин обуви" FontSize="18" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                 <StackPanel Grid.Column="2" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,10,0">

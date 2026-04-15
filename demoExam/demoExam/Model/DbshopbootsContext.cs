@@ -267,7 +267,7 @@ public partial class DbshopbootsContext : DbContext
                 .HasColumnName("password");
             entity.Property(e => e.Role)
                 .HasDefaultValueSql("'клиент'")
-                .HasColumnType("enum('администратр','менеджер','клиент')")
+                .HasColumnType("enum('администратор','менеджер','клиент')")
                 .HasColumnName("role");
         });
 

@@ -223,7 +223,8 @@ namespace demoExam.Windows
                     }
                     else
                     {
-                        productToSave.Images.Add(new demoExam.Model.Image { Image1 = fileName, ProductId = productToSave.Id });
+                        // ProductId пока 0 у нового товара — задаём связь через коллекцию, EF проставит id при SaveChanges.
+                        productToSave.Images.Add(new demoExam.Model.Image { Image1 = fileName });
                     }
                 }
 

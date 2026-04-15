@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ClD/ew2HeL8=",
+  "dgSpecHash": "YA+jRwEeisI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rakhm\\OneDrive\\Рабочий стол\\exam\\demoExam\\demoExam\\demoExam.csproj",
+  "projectFilePath": "C:\\Users\\rakhm\\Source\\Repos\\exam\\demoExam\\demoExam\\demoExam.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rakhm\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\rakhm\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

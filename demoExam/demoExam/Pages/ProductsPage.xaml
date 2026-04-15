@@ -21,6 +21,23 @@
             <Button x:Name="OrdersButton" Content="Заказы" Margin="20,0,0,0" Padding="10,2" Visibility="Collapsed" Click="OrdersButton_Click"/>
         </StackPanel>
 
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="10,5,10,5" VerticalAlignment="Center"
+                    Visibility="{Binding IsAdminOrManager, Converter={StaticResource BooleanToVisibilityConverter}}">
+            <TextBlock Text="Поиск:" VerticalAlignment="Center" Margin="0,0,8,0"/>
+            <TextBox x:Name="SearchTextBox" Width="200" VerticalAlignment="Center" Padding="4,2"
+                     TextChanged="SearchTextBox_TextChanged"/>
+            <TextBlock Text="Поставщик:" VerticalAlignment="Center" Margin="16,0,8,0"/>
+            <ComboBox x:Name="SupplierFilterCombo" Width="200" VerticalAlignment="Center"
+                      DisplayMemberPath="Name" SelectionChanged="SupplierFilterCombo_SelectionChanged"/>
+            <TextBlock Text="Сортировка:" VerticalAlignment="Center" Margin="16,0,8,0"/>
+            <ComboBox x:Name="StockSortCombo" Width="280" VerticalAlignment="Center"
+                      SelectionChanged="StockSortCombo_SelectionChanged">
+                <ComboBoxItem Content="Без сортировки по складу"/>
+                <ComboBoxItem Content="Количество на складе: по возрастанию"/>
+                <ComboBoxItem Content="Количество на складе: по убыванию"/>
+            </ComboBox>
+        </StackPanel>
+
         <ListView x:Name="ProductsList" Grid.Row="2" Margin="10" HorizontalContentAlignment="Stretch">
             <ListView.ItemContainerStyle>
                 <Style TargetType="ListViewItem">

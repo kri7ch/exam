@@ -2950,11 +2950,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rakhm\\OneDrive\\Рабочий стол\\exam\\demoExam\\demoExam\\demoExam.csproj",
+      "projectUniqueName": "C:\\Users\\rakhm\\source\\repos\\exam\\demoExam\\demoExam\\demoExam.csproj",
       "projectName": "demoExam",
-      "projectPath": "C:\\Users\\rakhm\\OneDrive\\Рабочий стол\\exam\\demoExam\\demoExam\\demoExam.csproj",
+      "projectPath": "C:\\Users\\rakhm\\source\\repos\\exam\\demoExam\\demoExam\\demoExam.csproj",
       "packagesPath": "C:\\Users\\rakhm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rakhm\\OneDrive\\Рабочий стол\\exam\\demoExam\\demoExam\\obj\\",
+      "outputPath": "C:\\Users\\rakhm\\source\\repos\\exam\\demoExam\\demoExam\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

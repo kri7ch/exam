@@ -283,7 +283,7 @@ CREATE TABLE `users` (
   `midname` varchar(100) DEFAULT NULL,
   `email` varchar(255) DEFAULT NULL,
   `password` varchar(255) DEFAULT NULL,
-  `role` enum('администратр','менеджер','клиент') NOT NULL DEFAULT 'клиент',
+  `role` enum('администратор','менеджер','клиент') NOT NULL DEFAULT 'клиент',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -294,7 +294,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'Никифорова','Весения','Николаевна','94d5ous@gmail.com','uzWC67','администратр'),(2,'Сазонов','Руслан','Германович','uth4iz@mail.com','2L6KZG','администратр'),(3,'Одинцов','Серафим','Артёмович','yzls62@outlook.com','JlFRCZ','администратр'),(4,'Степанов','Михаил','Артёмович','1diph5e@tutanota.com','8ntwUp','менеджер'),(5,'Ворсин','Петр','Евгеньевич','tjde7c@yahoo.com','YOyhfR','менеджер'),(6,'Старикова','Елена','Павловна','wpmrc3do@tutanota.com','RSbvHv','менеджер'),(7,'Михайлюк','Анна','Вячеславовна','5d4zbu@tutanota.com','rwVDh9','клиент'),(8,'Ситдикова','Елена','Анатольевна','ptec8ym@yahoo.com','LdNyos','клиент'),(9,'Ворсин','Петр','Евгеньевич','1qz4kw@mail.com','gynQMT','клиент'),(10,'Старикова','Елена','Павловна','4np6se@mail.com','AtnDjr','клиент');
+INSERT INTO `users` VALUES (1,'Никифорова','Весения','Николаевна','94d5ous@gmail.com','uzWC67','администратор'),(2,'Сазонов','Руслан','Германович','uth4iz@mail.com','2L6KZG','администратор'),(3,'Одинцов','Серафим','Артёмович','yzls62@outlook.com','JlFRCZ','администратор'),(4,'Степанов','Михаил','Артёмович','1diph5e@tutanota.com','8ntwUp','менеджер'),(5,'Ворсин','Петр','Евгеньевич','tjde7c@yahoo.com','YOyhfR','менеджер'),(6,'Старикова','Елена','Павловна','wpmrc3do@tutanota.com','RSbvHv','менеджер'),(7,'Михайлюк','Анна','Вячеславовна','5d4zbu@tutanota.com','rwVDh9','клиент'),(8,'Ситдикова','Елена','Анатольевна','ptec8ym@yahoo.com','LdNyos','клиент'),(9,'Ворсин','Петр','Евгеньевич','1qz4kw@mail.com','gynQMT','клиент'),(10,'Старикова','Елена','Павловна','4np6se@mail.com','AtnDjr','клиент');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
